@@ -8,6 +8,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
+
 public class MainActivity extends AppCompatActivity {
     private int currentFibonacci = 0;
     private TextView textView;
@@ -30,11 +31,10 @@ public class MainActivity extends AppCompatActivity {
                 int nextFibonacci = currentFibonacci + previousFibonacci;
                 textView.setText(String.valueOf(nextFibonacci));
 
-                String toastMessage = "Nomor Fibonacci: " + nextFibonacci;
 
-
+                String toastMessage = "Hasil : " + nextFibonacci;
                 Toast toast = Toast.makeText(MainActivity.this, toastMessage, Toast.LENGTH_SHORT);
-                toast.setGravity(Gravity.TOP, 0, 0);
+                toast.setGravity(Gravity.TOP, 0, 50);
                 toast.show();
 
                 previousFibonacci = currentFibonacci;
