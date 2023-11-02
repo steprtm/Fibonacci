@@ -8,7 +8,7 @@ DOSEN PENGAMPUH : Donny Maulana, S.Kom., M.M.S.I.
 
 
 
-## File - [MainActivity.java](https://github.com/steprtm/Fibonacci/blob/main/app/src/main/java/com/example/fibonacci/MainActivity.java) [activity_main.xml](https://github.com/steprtm/Fibonacci/blob/main/app/src/main/res/layout/activity_main.xml) 
+## File - [MainActivity.java](https://github.com/steprtm/Fibonacci/blob/main/app/src/main/java/com/example/fibonacci/MainActivity.java) [activity_main.xml](https://github.com/steprtm/Fibonacci/blob/main/app/src/main/res/layout/activity_main.xml) [colors.xml](https://github.com/steprtm/Fibonacci/blob/main/app/src/main/res/values/colors.xml)
 
 
 
@@ -120,7 +120,7 @@ DOSEN PENGAMPUH : Donny Maulana, S.Kom., M.M.S.I.
         android:background="@color/yellow"
         tools:context=".MainActivity"
         tools:ignore="ExtraText">
-- Ini adalah elemen root dari layout XML dan menggunakan ConstraintLayout, yaitu tata letak konstrain Android. Dalam elemen ini didefinisikan atribut seperti xmlns untuk namespace Android, lebar dan tinggi layout, latar belakang, konteks (activity yang terkait), dan atribut lainnya.
+- Elemen root dari layout XML dan menggunakan ConstraintLayout, yaitu tata letak konstrain Android. Dalam elemen ini didefinisikan atribut seperti xmlns untuk namespace Android, lebar dan tinggi layout, latar belakang, konteks (activity yang terkait), dan atribut lainnya.
 3.      <TextView
         android:id="@+id/fibonacciNumberTextView"
         android:layout_width="wrap_content"
@@ -133,7 +133,7 @@ DOSEN PENGAMPUH : Donny Maulana, S.Kom., M.M.S.I.
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-- Ini adalah elemen TextView yang menampilkan angka Fibonacci. ID, lebar, tinggi, margin atas, teks default, warna teks, ukuran teks, dan batasan tata letak menggunakan ConstraintLayout.
+- Elemen TextView yang menampilkan angka Fibonacci. ID, lebar, tinggi, margin atas, teks default, warna teks, ukuran teks, dan batasan tata letak menggunakan ConstraintLayout.
 4.      <Button
         android:id="@+id/showToastButton"
         android:layout_width="411dp"
@@ -143,7 +143,7 @@ DOSEN PENGAMPUH : Donny Maulana, S.Kom., M.M.S.I.
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-- Ini adalah elemen Button yang digunakan untuk menampilkan pesan toast. ID, lebar, tinggi, latar belakang, teks tombol, dan batasan tata letak menggunakan ConstraintLayout.
+- Elemen Button yang digunakan untuk menampilkan pesan toast. ID, lebar, tinggi, latar belakang, teks tombol, dan batasan tata letak menggunakan ConstraintLayout.
 5.      <LinearLayout
         android:id="@+id/buttonContainer"
         android:layout_width="match_parent"
@@ -153,21 +153,21 @@ DOSEN PENGAMPUH : Donny Maulana, S.Kom., M.M.S.I.
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">
-- Ini adalah elemen LinearLayout yang berisi dua tombol (Hitung dan Reset). ID, lebar, tinggi, jenis orientasi (horizontal), dan batasan tata letak menggunakan ConstraintLayout.
+- Elemen LinearLayout yang berisi dua tombol (Hitung dan Reset). ID, lebar, tinggi, jenis orientasi (horizontal), dan batasan tata letak menggunakan ConstraintLayout.
 6.      <Button
         android:id="@+id/showFibonacciButton"
         android:layout_width="211dp"
         android:layout_height="70dp"
         android:background="#2196F3"
         android:text="Hitung" />
-- Ini adalah elemen Button pertama dalam LinearLayout, yaitu tombol "Hitung". ID, lebar, tinggi, latar belakang, dan teks tombol.
+- Button pertama dalam LinearLayout, yaitu tombol "Hitung". ID, lebar, tinggi, latar belakang, dan teks tombol.
 7.     <Button
         android:id="@+id/resetButton"
         android:layout_width="211dp"
         android:layout_height="70dp"
         android:background="#2196F3"
         android:text="Reset" />
-- Ini adalah elemen Button kedua dalam LinearLayout, yaitu tombol "Reset". ID, lebar, tinggi, latar belakang, dan teks tombol.
+- Button kedua dalam LinearLayout, yaitu tombol "Reset". ID, lebar, tinggi, latar belakang, dan teks tombol.
 
 ## Colors.xml
     <array name="fibonacci_colors">
