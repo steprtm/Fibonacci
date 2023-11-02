@@ -25,8 +25,7 @@ DOSEN PENGAMPUH : Donny Maulana, S.Kom., M.M.S.I.
         import android.widget.Button;
         import android.widget TextView;
         import android.widget Toast;
-
-   import androidx.appcompat.app.AppCompatActivity;
+        import androidx.appcompat.app.AppCompatActivity;
 - Mengimpor kelas-kelas dan komponen-komponen yang diperlukan dalam pembuatan aplikasi Android.
 
 3.      public class MainActivity extends AppCompatActivity {
