@@ -7,6 +7,10 @@ TI.22.A5 312210635
 DOSEN PENGAMPUH : Donny Maulana, S.Kom., M.M.S.I.
 
 
+[![Watch the video](https://img.youtube.com/vi/ROcgjSo_iZI/maxresdefault.jpg)](https://youtu.be/ROcgjSo_iZI)
+
+
+
 
 ## File - [MainActivity.java](https://github.com/steprtm/Fibonacci/blob/main/app/src/main/java/com/example/fibonacci/MainActivity.java) [activity_main.xml](https://github.com/steprtm/Fibonacci/blob/main/app/src/main/res/layout/activity_main.xml) [colors.xml](https://github.com/steprtm/Fibonacci/blob/main/app/src/main/res/values/colors.xml)
 
